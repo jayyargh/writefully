@@ -1,4 +1,5 @@
+<div class='row'>
 <% @posts.each do |post| %>
-  <h2><%= post.title %></h2>
-  <p><%= post.body %></p>
+  <%= render post %>
 <% end %>
+</div>
